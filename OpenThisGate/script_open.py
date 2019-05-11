@@ -6,8 +6,8 @@ import os
 from time import sleep          # this lets us have a time delay
 
 def open():
-        cmd = "./on.sh"
+        cmd = "/root/OpenThisGate/OpenThisGate/on.sh"
         os.system(cmd)
-        sleep(3)
-        cmd = "./off.sh"
+        sleep(4)
+        cmd = "/root/OpenThisGate/OpenThisGate/off.sh"
         os.system(cmd)
