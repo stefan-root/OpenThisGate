@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'normalize.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'milligram.min.css' %}">
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'open/own.css' %}">    
 </head>
 <body>
-    <div class="center">
+    <div>
         {% block content %}
         {% endblock %}
     </div>
