@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+        <form action="{% url 'it_is_open' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="OPEN THIS GATE!">
+        </form>        
+{% endblock %}
